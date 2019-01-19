@@ -74,9 +74,7 @@ Here is how the files are organized:
     are strictly forbidden in partner modules. Keep them for your
     own shop.
 -   `/pdf`: contains all the template files (`.tpl`) pertaining to the
-    PDF file generation (invoice, delivery slips, etc.). Change these
-    files in order to change the look of the PDF files that
-    PrestaShop generates.
+    PDF file generation (invoice, delivery slips, etc.). For changes, copy a file to the current theme folder under `/pdf`,       and change it.
 -   `/src`: contains the architecture files, comprising the
     Symfony framework, the legacy framework, and the Adapter classes.
 -   `/tests`: contains automated tests. This folder is not
